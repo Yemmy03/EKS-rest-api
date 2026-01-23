@@ -1,0 +1,21 @@
+apiversion: apps/v1
+kind: Deployment
+metadata:
+  name: rest-api-deployment
+  labels:
+    app: rest-api-staging
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: rest-api
+  template:
+    metadata:
+      labels:
+        app: rest-api
+    spec:
+      containers:
+      - name: rest-api
+        image: yemmy03/eks-rest-api:eks
+        ports:
+        - containerPort: 80
