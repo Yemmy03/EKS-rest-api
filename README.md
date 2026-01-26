@@ -117,9 +117,9 @@ I identified the root cause with the cluster via logs and discovered:
 
 # 6. **Free Tier Limitation**
 
-Another issue I lat tried using `t3.micro` and `t3.small`.
+Another issue I had was using `t3.micro` and `t3.small` in 2 separate nodegroups.
 
-You confirmed:
+It was much later I confirmed:
 
 ### Free Tier supports only:
 
