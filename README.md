@@ -1,9 +1,9 @@
 ### Spining up my first k8s Cluster and why you should not use a free tier account for this
 ---
 
-# Steps & Error Resolution Walkthrough: “Pushing a Rest API Container to Kubernetes (EKS / Local Cluster)”
+# Steps & Error Resolution Walkthrough: Pushing a Rest API Container to Kubernetes (EKS)
 
-## **Goal**
+## **Summary**
 
 Deploy a containerized REST API to AWS EKS using yaml manifests.
 
