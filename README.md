@@ -5,7 +5,7 @@
 
 ## **Goal**
 
-Deploy a containerized REST API to Kubernetes using yaml manifests stored in GitHub, and run it successfully on a local Kubernetes environment (VS Code + kubectl).
+Deploy a containerized REST API to AWS EKS using yaml manifests.
 
 ---
 
